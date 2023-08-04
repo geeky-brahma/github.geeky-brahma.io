@@ -1,0 +1,142 @@
+body {
+    background-color: #ECF2FF;
+    color: #333;
+    font-family: 'Baloo Tammudu 2', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #4D96B5;
+    padding: 1rem 0;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+  
+  p {
+    font-size: 1.3rem;
+  }
+  .profile-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 2rem auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .intro {
+    max-width: 600px;
+    margin: 0 auto 3rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 1s, transform 1s;
+  }
+  .skills {
+    background-color: #FFCBB7;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 1s, transform 1s;
+  }
+  .skills h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .skills .skill-card {
+    width: 200px;
+    padding: 1rem;
+    background-color: #FFF1E6;
+    border-radius: 8px;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-in-out;
+  }
+  .skills .skill-card:hover {
+    transform: scale(1.03);
+  }
+  .skills img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1rem;
+  }
+  .projects {
+    background-color: #FFEDF7;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 1s, transform 1s;
+  }
+  .projects h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .projects .project-card {
+    width: 250px;
+    padding: 1rem;
+    background-color: #FFD3F0;
+    border-radius: 8px;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-in-out;
+  }
+  .projects .project-card:hover {
+    transform: scale(1.03);
+  }
+  .projects img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1rem;
+  }
+  .footer {
+    background-color: #4D96B5;
+    padding: 2rem 0;
+  }
+  .footer p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0;
+  }
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+  }
+  .footer a:hover {
+    color: #1E5582;
+  }
+  .navbar {
+    background-color: #4D96B5;
+    padding: 1rem 0;
+  }
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-size: 1.3rem;
+  }
+  .navbar a:hover {
+    color: #1E5582;
+  }
+
+  
